@@ -15,6 +15,8 @@ Node.js è un ambiente di runtime open source per eseguire codice JavaScript lat
 Dal seguente link si può installare l’ambiente: https://nodejs.org/en
 All’interno di Node.js è incluso anche npm ("Node Package Manager"), utilizzato per installare, condividere e gestire le dipendenze dei progetti JavaScript, facilitando la gestione dei pacchetti e delle dipendenze, oltre a fornire un'infrastruttura per la condivisione del codice e l'automazione dei flussi di lavoro.
 
+Per questo progetto, è necessario includere la cartella "node_modules" che contiene le dipendenze del progetto. È possibile fare ciò all'interno della directory di dove sarà il progetto ed eseguire, dal prompt dei comandi, il comando "npm install".
+
 **TypeScript**
 
 TypeScript è un linguaggio di programmazione che consente agli sviluppatori di definire chiaramente i tipi di variabili, parametri di funzione e valori di ritorno delle funzioni, permettendo di aggiunge un livello di robustezza al codice, aiutando a individuare errori durante lo sviluppo migliorandone la manutenibilità del codice.
@@ -31,15 +33,6 @@ Usando il seguente comando sul prompt dei comandi per l’installazione “npm i
 SerialPort è una libreria Node.js open-source che fornisce un'API per comunicare con porte seriali su dispositivi. È utilizzata principalmente per interagire con dispositivi hardware che supportano la comunicazione tramite porte seriali fornendo un'interfaccia semplice e potente.
 Usando il seguente comando sul prompt dei comandi per l’installazione “npm install serialport”
 
-**Git**
-
-Git è un sistema di controllo versione distribuito, utilizzato principalmente per il tracking delle modifiche nel codice sorgente durante lo sviluppo software. Possiede diverse caratteristiche tra le quali: Controllo di versione distribuito, Branching e merging, Velocità ed efficienza, Integrità dei dati e Collaborazione tra sviluppatori.
-Dal seguente link si può procedere all’installazione: https://www.git-scm.com/downloads 
-Dopo aver effettuato il fork su GitHub, usando GitBash eseguiamo il suddetto comando:
-“git clone https://github.com/tuo-username/nome-del-repository-forkato.git”.  Successivamente bisogna spostare l’intera cartella tramite il seguente comando “cp -r /percorso-dove-si-trova-la-catella-con-il-progetto .”, entrare nel repository clonato con il comando “cd nome-del-repository-clonato” e aggiungervi i file con il comando “ git add .”. Effettuare un commit tramite il comando “git commit -m "messaggio che si vuole scrivere per descrivere l’azione"” ed infine inviare le modifiche su GitHub tramite il comando “git push origin main”.
-Se l’azione “git commit -m "messaggio che si vuole scrivere per descrivere l’azione"” dovesse dare problemi di tipo “Author identity unknown”, eseguire questi due comandi per configurare l’identità:
-“git config --global user.name "tuo_nome"”
-“git config --global user.email "tuo_email@example.com"”
 
 **Spiegazione Codice**
 
