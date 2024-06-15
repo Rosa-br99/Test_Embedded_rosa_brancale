@@ -1,0 +1,17 @@
+{
+  "name": "test_embedded",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "build": "echo Building..."
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "electron": "^31.0.0",
+    "serialport": "^12.0.0"
+  }
+}
