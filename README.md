@@ -225,6 +225,7 @@ Per uscire, basta semplicemente chiudere la finestra
 Dal prompt dei comandi bisogna entrare nella directory del progetto con il comando “cd C:\X\X\X\nome_cartella” (oppure si può sfruttare il terminale che offre Visual Studio Code cliccando su “Terminal” dove è già impostato nella directory del progetto), installare le dipendenze con il comando “npm install”, installare il pacchetto con il comando "npm install -g electron-packager" ed infine digitare il comando “electron-packager . --platform=win32 --arch=x64” (modificando “—platform” e “—arch” in base alle necessità) per realizzare il file eseguibile che sarà inserito nella directory del progetto.
 
 **Sezione Extra**
+
 È possibile utilizzare, per questa applicazione, anche Docker.
 
 Docker è una piattaforma open source progettata per automatizzare la distribuzione, il test e il deployment delle applicazioni all'interno di container software. Un container è un'unità leggera e portatile che contiene tutto il necessario per eseguire un'applicazione, inclusi il codice, le librerie, le dipendenze e le configurazioni.
